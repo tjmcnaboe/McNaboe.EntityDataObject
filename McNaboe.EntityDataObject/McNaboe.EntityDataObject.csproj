@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>T.J. McNaboe</Authors>
+    <Title>McNaboe EntityDataObject </Title>
+    <Description>Common interfaces used by server and client projects</Description>
+    <Copyright>McNaboe 2023</Copyright>
+    <Version>Alpha-1.0.0</Version>
+  </PropertyGroup>
+
+</Project>
