@@ -25,7 +25,13 @@ namespace McNaboe.EntityDataObject.Server
             var source = set.ToList();
             return MapOutput(source);
         }
-
+        public virtual async Task<IQueryable<T>> GetAllAsQueryable()
+        {
+            using var db = _dbFactory.CreateDbContext();
+            var set = db.Set<TSource>();
+            var source = set.ToList();
+            return MapOutput(source).AsQueryable();
+        }
         public async Task<bool> Delete(TKey Id)
         {
             using var db = _dbFactory.CreateDbContext();

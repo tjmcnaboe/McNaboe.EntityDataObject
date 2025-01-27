@@ -24,6 +24,8 @@ namespace McNaboe.EntityDataObject.Server
             return set.ToList();
         }
 
+
+
         public virtual async Task<T> Update(T entityToUpdate)
         {
             using var db = _dbFactory.CreateDbContext();
@@ -51,6 +53,13 @@ namespace McNaboe.EntityDataObject.Server
             set.Remove(delete);
             await db.SaveChangesAsync();
             return true;
+        }
+
+        public virtual async Task<IQueryable<T>> GetAllAsQueryable()
+        {
+            using var db = _dbFactory.CreateDbContext();
+            var set = db.Set<T>();
+            return set.ToList().AsQueryable();
         }
     }
 

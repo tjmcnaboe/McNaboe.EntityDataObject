@@ -1,20 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Authors>T.J. McNaboe</Authors>
     <Copyright>McNaboe 2023</Copyright>
     <PackageProjectUrl>https://github.com/tjmcnaboe/McNaboe.EntityDataObject</PackageProjectUrl>
     <RepositoryUrl>https://github.com/tjmcnaboe/McNaboe.EntityDataObject</RepositoryUrl>
-    <Version>1.0.010$(VersionPrefix)-alpha</Version>
+    <Version>2.0.110$(VersionPrefix)-alpha</Version>
     <Description>base classes and interfaces for generating server side services that implement EntityDataObject</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-rc.2.23480.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>
