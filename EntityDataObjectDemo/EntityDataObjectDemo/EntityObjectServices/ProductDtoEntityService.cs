@@ -55,6 +55,15 @@ namespace EntityDataObjectDemo.EntityObjectServices
         public partial List<Product> MapInList(List<ProductDto> data);
         public partial void ProductDtoToProduct(ProductDto vm, Product product);
     }
+    [Mapper]
+    public partial class  EntityDataObjectMapper<T,TVM> where T :class
+    {
+        public partial TVM MapOut(T model);
+        List<ProductDto> MapOutList(List<Product> data);
+        public partial Product MapIn(ProductDto data);
+        public partial List<Product> MapInList(List<ProductDto> data);
+        public partial void ProductDtoToProduct(ProductDto vm, Product product);
+    }
     //[Mapper]
     //public partial class GenericVmMapper<T,TVM> where T : class where TVM : class
     //{

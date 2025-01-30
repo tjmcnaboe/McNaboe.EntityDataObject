@@ -10,7 +10,7 @@
     <Description>Common interfaces used by server and client projects</Description>
     <Copyright>McNaboe 2023</Copyright>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <Version>2.0.1.0$(VersionPrefix)-alpha</Version>
+	<Version>3.0.0.0$(VersionPrefix)-alpha</Version>
   </PropertyGroup>
 
 </Project>

@@ -4,7 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>2.0.1.0$(VersionPrefix)-alpha</Version>
+    <Version>3.0.0.0$(VersionPrefix)-alpha</Version>
     <Title>McNaboe.EntityDataObject.Client</Title>
     <Authors>T.J. McNaboe</Authors>
     <Description>Client library for use with McNaboe.entity.Data.Object</Description>

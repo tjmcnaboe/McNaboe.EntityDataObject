@@ -8,7 +8,7 @@
     <Copyright>McNaboe 2023</Copyright>
     <PackageProjectUrl>https://github.com/tjmcnaboe/McNaboe.EntityDataObject</PackageProjectUrl>
     <RepositoryUrl>https://github.com/tjmcnaboe/McNaboe.EntityDataObject</RepositoryUrl>
-    <Version>2.0.110$(VersionPrefix)-alpha</Version>
+    <Version>3.0.0$(VersionPrefix)-alpha</Version>
     <Description>base classes and interfaces for generating server side services that implement EntityDataObject</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
